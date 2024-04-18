@@ -1,153 +1,201 @@
 console.groupCollapsed("Ejercicio 1");
 // Ejercicio 1
-    console.log(1+1)
+    console.log(1 + 1);
 
 console.groupEnd();
 
 console.groupCollapsed("Ejercicio 2");
 // Ejercicio 2
-    console.log(1-1)
+    console.log(1 - 1);
 
 console.groupEnd();
 
 console.groupCollapsed("Ejercicio 3");
 // Ejercicio 3
-    console.log(1*1)
+    console.log(1 * 1);
 
 console.groupEnd();
 
 console.groupCollapsed("Ejercicio 4");
 // Ejercicio 4
-    console.log(1/2)    
+    console.log(1 / 2);
 
 console.groupEnd();
 
 console.groupCollapsed("Ejercicio 5");
 // Ejercicio 5
-    console.log(1%2)
+    console.log(1 % 2);
 
 console.groupEnd();
 
 console.groupCollapsed("Ejercicio 6");
 // Ejercicio 6
-    console.log(Math.round(Math.random()*10))
+    console.log(Math.round(Math.random() * 10));
 
 console.groupEnd();
 
 console.groupCollapsed("Ejercicio 7");
 // Ejercicio 7
-    console.log(Math.pow(2,3))
+    console.log(Math.pow(2, 3));
 
 console.groupEnd();
 
 console.groupCollapsed("Ejercicio 8");
 // Ejercicio 8
-    console.log(Math.sqrt(25))
+    console.log(Math.sqrt(25));
 
 console.groupEnd();
 
 console.groupCollapsed("Ejercicio 9");
 // Ejercicio 9
-    let X=0
-    console.log((X * 9/5) + 32 )
+    let X = 0;
+    console.log((X * 9) / 5 + 32);
 
 console.groupEnd();
 
 console.groupCollapsed("Ejercicio 10");
 // Ejercicio 10
-    let r=4
-    console.log(Math.PI*r**2)
+    let r = 4;
+    console.log(Math.PI * r ** 2);
 
 console.groupEnd();
 
 console.groupCollapsed("Ejercicio 11");
 // Ejercicio 11
-    let lado=0
-    console.log(lado*4)
+    let lado = 0;
+    console.log(lado * 4);
+
 console.groupEnd();
 
 console.groupCollapsed("Ejercicio 12");
 // Ejercicio 12
+    let radioEsfera=4
+    console.log(4/3*Math.PI*radioEsfera**3)
+
 console.groupEnd();
 
 console.groupCollapsed("Ejercicio 13");
 // Ejercicio 13
+    let tBase=5
+    let tAltura=10
+    console.log((tAltura*tBase)/2)
+
 console.groupEnd();
 
 console.groupCollapsed("Ejercicio 14");
 // Ejercicio 14
+console.log("Tabla del 5")
+    for (let i = 1; i < 11; i++) {
+        console.log(`5 x ${i}: ${5*i}`)
+    }
+
 console.groupEnd();
 
 console.groupCollapsed("Ejercicio 15");
 // Ejercicio 15
+    console.log(Math.max(3, 7, 2))
+
 console.groupEnd();
 
 console.groupCollapsed("Ejercicio 16");
 // Ejercicio 16
+    console.log(Math.min(10, 20, 5))
 console.groupEnd();
 
 console.groupCollapsed("Ejercicio 17");
 // Ejercicio 17
+    console.log((4+6+8)/3)
+
 console.groupEnd();
 
 console.groupCollapsed("Ejercicio 18");
 // Ejercicio 18
+    let totalFactorial = 1;
+    for (let i = 5; i > 0; i--) {
+      totalFactorial = totalFactorial * i;
+    }
+    console.log(totalFactorial);
+
 console.groupEnd();
 
 console.groupCollapsed("Ejercicio 19");
 // Ejercicio 19
+    console.log(Math.round(3.6))
+
 console.groupEnd();
 
 console.groupCollapsed("Ejercicio 20");
 // Ejercicio 20
+    console.log(9*2)
+
 console.groupEnd();
 
 console.groupCollapsed("Ejercicio 21");
 // Ejercicio 21
+    console.log(4*3)
 console.groupEnd();
 
 console.groupCollapsed("Ejercicio 22");
 // Ejercicio 22
+    console.log(6**2)
 console.groupEnd();
 
 console.groupCollapsed("Ejercicio 23");
 // Ejercicio 23
+    console.log(3**3)
+
 console.groupEnd();
 
 console.groupCollapsed("Ejercicio 24");
 // Ejercicio 24
+let total=0
+for (let i = 0; i < 11 ; i++) {
+    total=total+i
+    console.log(total)
+}
 console.groupEnd();
 
 console.groupCollapsed("Ejercicio 25");
 // Ejercicio 25
+    console.log(50-25)
+
 console.groupEnd();
 
 console.groupCollapsed("Ejercicio 26");
 // Ejercicio 26
+    console.log(7*9)
 console.groupEnd();
 
 console.groupCollapsed("Ejercicio 27");
 // Ejercicio 27
+    console.log(144/12)
 console.groupEnd();
 
 console.groupCollapsed("Ejercicio 28");
 // Ejercicio 28
+    console.log(17%4)
 console.groupEnd();
 
 console.groupCollapsed("Ejercicio 29");
 // Ejercicio 29
+    console.log(Math.round(Math.random()*(30-20)+20))
 console.groupEnd();
 
 console.groupCollapsed("Ejercicio 30");
 // Ejercicio 30
+    console.log(2**8)
 console.groupEnd();
 
 console.groupCollapsed("Ejercicio 31");
 // Ejercicio 31
+    console.log(Math.sqrt(144))
+
 console.groupEnd();
 
 console.groupCollapsed("Ejercicio 32");
 // Ejercicio 32
+    
+
 console.groupEnd();
 
 console.groupCollapsed("Ejercicio 33");
